@@ -1,11 +1,13 @@
 about:
-  description: sophisticated command line file transfer program (ftp, http, sftp, fish, torrent)
+  description:
+  |
+    sophisticated command line file transfer program (ftp, http, sftp, fish, torrent)
   license: GPL-3.0
   homepage: http://lftp.yar.ru
   head: 9781fab
   archived: false
   latestVersion: v4.9.3
-  collectedAt: 2026-09-03T05:22:44Z
+  collectedAt: 2026-09-03T22:34:33Z
 timeline:
   created: 2011-08-08
   lastCommit: 2026-03-23
@@ -13,7 +15,7 @@ timeline:
 popularity:
   star: 1299
   watcher: 43
-  fork: 184
+  fork: 185
   release: 10
   contributor: 60
   pullRequest: 32
@@ -25,7 +27,7 @@ language:
   Shell: 44692
   Makefile: 10616
   Perl: 4833
-totalLine: 2247416
+totalBytes: 2247416
 recent:
   last30d:
     since: 2026-08-04
