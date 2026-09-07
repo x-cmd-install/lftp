@@ -5,7 +5,7 @@ about:
   head: 9781fab
   archived: false
   latestVersion: "v4.9.3"
-  collectedAt: 2026-09-07T05:55:54Z
+  collectedAt: 2026-09-07T18:34:00Z
 timeline:
   created: 2011-08-08
   lastCommit: 2026-03-23
@@ -84,7 +84,7 @@ total:
   commit: 4663
 ---
 path: /home/runner/.x-repo/github.com/lavv17/lftp
-collectedAt: 2026-09-07T05:56:00Z
+collectedAt: 2026-09-07T18:34:05Z
 loc:
   Cpp:
     code: 49841
@@ -231,7 +231,7 @@ checks:
       - 'Warn: 0 commits out of 22 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:56:00+00:00
+  collectedAt: 2026-09-07T18:34:06+00:00
   platform:
     darwin/arm64:
       name:  null
