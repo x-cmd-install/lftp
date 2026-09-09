@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3385456,
       "digest": null,
-      "download_count": 38130,
+      "download_count": 38137,
       "created_at": "2024-11-08T11:02:14Z",
       "updated_at": "2024-11-08T11:02:20Z",
       "browser_download_url": "https://github.com/lavv17/lftp/releases/download/v4.9.3/lftp-4.9.3.tar.gz"
