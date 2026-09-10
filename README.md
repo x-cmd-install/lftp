@@ -1,24 +1,75 @@
 # lftp
 
+[中文版本](./README.cn.md)
+
 sophisticated command line file transfer program (ftp, http, sftp, fish, torrent)
 
-- **Upstream**: <https://github.com/lavv17/lftp>
-- **Homepage**: <http://lftp.yar.ru>
-- **Latest release**: `v4.9.3` (2024-11-08)
-- **Last commit**: 2026-03-23
-- **License**: GPL-3.0
-- **Stars**: 1300 · **Forks**: 185 · **Open issues**: 646 · **Contributors**: 60
+![lftp](https://repo.x-cmd.io/lftp.svg)
 
-## Installation
+## Install
 
 ```sh
 x install lftp
 ```
 
-See <https://x-cmd.com/install/lftp> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/lavv17/lftp>
+- **Homepage**: <http://lftp.yar.ru>
+- **License**: GPL-3.0
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T20:25:51Z._
+- **Latest**: `v4.9.3` (2024-11-08)
+- **Last commit**: 2026-03-23
+- **Assets in release**: 1
+- **Published**: 2024-11-08T10:59:51Z
+
+## Popularity
+
+- **Stars**: 1,300 · **Forks**: 185 · **Open issues**: 646 · **Contributors**: 60
+
+## Totals (cumulative)
+
+- **Releases**: 10 · **Merged PRs**: 90 · **Open PRs**: 11 · **Closed issues**: 390 · **Open issues**: 256 · **Commits**: 4663
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-15 | 0 | 4 | 3 | 1 | 10 | 4 |
+
+## Code size
+
+Total: **71,631** lines of code across **249** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Cpp | 49,841 | 3,591 | 4,649 | 109 |
+| CHeader | 10,001 | 2,232 | 1,991 | 112 |
+| C | 9,834 | 2,074 | 1,105 | 9 |
+| M4 | 1,014 | 353 | 103 | 12 |
+| Sh | 268 | 26 | 49 | 7 |
+
+## OpenSSF Scorecard
+
+Overall score: **3 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
+
+## Improve this data
+
+Install metadata for lftp lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `lftp` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/lftp.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T05:59:03Z._
