@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,304 · **Forks**: 185 · **Open issues**: 646 · **Contributors**: 60
+- **Stars**: 1,304 · **Forks**: 184 · **Open issues**: 646 · **Contributors**: 60
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 90 · **Open PRs**: 11 · **Closed issues**: 390 · **Open issues**: 256 · **Commits**: 4663
+- **Releases**: 10 · **Merged PRs**: 90 · **Open PRs**: 14 · **Closed issues**: 390 · **Open issues**: 256 · **Commits**: 4663
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-03 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-04 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-05 | 0 | 0 | 0 | 0 | 4 | 0 |
-| 360d | 2025-10-07 | 0 | 4 | 2 | 1 | 8 | 4 |
-| last720d | 2024-10-12 | 2 | 9 | 4 | 5 | 26 | 16 |
+| 30d | 2026-09-03 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-08-04 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-07-05 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-04-06 | 0 | 0 | 3 | 0 | 4 | 0 |
+| 360d | 2025-10-08 | 0 | 4 | 5 | 1 | 8 | 4 |
+| last720d | 2024-10-13 | 2 | 9 | 7 | 5 | 26 | 16 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for lftp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T06:40:18Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T06:15:48Z._
