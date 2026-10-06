@@ -14,11 +14,11 @@ x install lftp
 
 ## Code insight
 
-Total: **71,631** lines of code across **249** files in the top 5 languages.
+Total: **71,668** lines of code across **249** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 49,841 | 3,591 | 4,649 | 109 |
+| Cpp | 49,878 | 3,592 | 4,653 | 109 |
 | CHeader | 10,001 | 2,232 | 1,991 | 112 |
 | C | 9,834 | 2,074 | 1,105 | 9 |
 | M4 | 1,014 | 353 | 103 | 12 |
@@ -26,13 +26,13 @@ Total: **71,631** lines of code across **249** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3 / 10**
+Overall score: **3.3 / 10**
 
 Lowest-scoring checks:
 
+- **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.9.3` (2024-11-08)
-- **Last commit**: 2026-03-23
+- **Last commit**: 2026-10-05
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 1,304 · **Forks**: 184 · **Open issues**: 646 · **Contributors**: 60
+- **Stars**: 1,304 · **Forks**: 184 · **Open issues**: 646 · **Contributors**: 61
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 90 · **Open PRs**: 14 · **Closed issues**: 390 · **Open issues**: 256 · **Commits**: 4663
+- **Releases**: 10 · **Merged PRs**: 93 · **Open PRs**: 11 · **Closed issues**: 390 · **Open issues**: 256 · **Commits**: 4666
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-08-06 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-07-07 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-04-08 | 0 | 0 | 3 | 0 | 4 | 0 |
-| 360d | 2025-10-10 | 0 | 4 | 5 | 1 | 8 | 4 |
-| last720d | 2024-10-15 | 2 | 9 | 7 | 5 | 26 | 16 |
+| 30d | 2026-09-06 | 0 | 3 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-07 | 0 | 3 | 0 | 0 | 0 | 3 |
+| 90d | 2026-07-08 | 0 | 3 | 0 | 0 | 0 | 3 |
+| last180d | 2026-04-09 | 0 | 3 | 0 | 0 | 3 | 3 |
+| 360d | 2025-10-11 | 0 | 7 | 2 | 1 | 8 | 7 |
+| last720d | 2024-10-16 | 2 | 12 | 4 | 5 | 26 | 19 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for lftp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:56:41Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:35:13Z._
