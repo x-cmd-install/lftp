@@ -58,18 +58,37 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 3 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 3 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 0 | 3 | 0 | 0 | 0 | 3 |
-| last180d | 2026-04-25 | 0 | 3 | 0 | 0 | 2 | 3 |
-| 360d | 2025-10-27 | 0 | 6 | 2 | 1 | 8 | 6 |
-| last720d | 2024-11-01 | 2 | 11 | 4 | 4 | 26 | 19 |
+| 30d | 2026-09-23 | 0 | 3 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 3 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 0 | 3 | 0 | 0 | 0 | 3 |
+| last180d | 2026-04-26 | 0 | 3 | 0 | 0 | 2 | 3 |
+| 360d | 2025-10-28 | 0 | 6 | 2 | 1 | 8 | 6 |
+| last720d | 2024-11-02 | 2 | 11 | 4 | 4 | 26 | 19 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [lftp-4.9.3.tar.gz](https://github.com/lavv17/lftp/releases/download/v4.9.3/lftp-4.9.3.tar.gz) | 3.2 MiB | `native/unknown` |
+
+## Distribution status
+
+Reported by **263** distros on [repology.org](https://repology.org/project/lftp). **67** are ✅ on the latest upstream release, **120** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.9.3` | ✅ latest |
+| Debian 14 | `4.9.3` | ✅ latest |
+| Debian 13 | `4.9.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.9.3` | ✅ latest |
+| Ubuntu 24.04 LTS | `4.9.2` | ⚠️ outdated |
+| Arch | `4.9.3` | ✅ latest |
+| Homebrew | `4.9.3` | ✅ latest |
+| Fedora rawhide | `4.9.3` | ✅ latest |
+| Nix unstable | `4.9.3` | ✅ latest |
+| Void | `4.9.2` | ⚠️ outdated |
+| Alpine edge | `4.9.3` | ✅ latest |
+| openSUSE Tumbleweed | `4.9.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -80,4 +99,4 @@ Install metadata for lftp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:50:40Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:51:24Z._
