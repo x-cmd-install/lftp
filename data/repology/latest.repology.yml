@@ -1,22 +1,57 @@
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.6.5
-  origversion: 4.6.5-1
+  version: 4.4.11
+  origversion: 4.4.11-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.7.1
-  origversion: 4.7.1-1
+  version: 4.4.13
+  origversion: 4.4.13-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.7.4
-  origversion: 4.7.4-1
+  version: 4.4.5
+  origversion: 4.4.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.5.4
+  origversion: 4.5.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.5.5
+  origversion: 4.5.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.6.2
+  origversion: 4.6.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.6.3a
+  origversion: 4.6.3a-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.0
+  origversion: 4.7.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -29,8 +64,22 @@
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.7.8
-  origversion: 4.7.8-1
+  version: 4.8.0
+  origversion: 4.8.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.8.2
+  origversion: 4.8.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.8.3
+  origversion: 4.8.3-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -101,20 +150,6 @@
   srcname: lftp
   visiblename: lftp
   version: 4.8.4
-  origversion: 4.8.4-7.el8_10
-  status: outdated
-  summary: A sophisticated file transfer program
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: lftp
-  visiblename: lftp
-  version: 4.8.4
   origversion: 4.8.4-4.el8_10
   status: outdated
   summary: A sophisticated file transfer program
@@ -138,24 +173,20 @@
     - GPLv3+
   categories:
     - Applications/Internet
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: lftp
-  visiblename: lftp
-  version: 4.9.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: aerynos
+- repo: almalinux_8
+  subrepo: AppStream
   srcname: lftp
   visiblename: lftp
-  version: 4.9.3
-  origversion: null
-  status: newest
-  summary: Terminal based FTP Client
+  version: 4.8.4
+  origversion: 4.8.4-7.el8_10
+  status: outdated
+  summary: A sophisticated file transfer program
+  maintainers:
+    - packager@almalinux.org
   licenses:
-    - GPL-3.0-or-later
+    - GPLv3+
+  categories:
+    - Applications/Internet
 - repo: almalinux_9
   subrepo: AppStream
   srcname: lftp
@@ -175,6 +206,43 @@
     - GPLv3+
   categories:
     - Unspecified
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.5
+  origversion: 4.3.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.0
+  origversion: 4.3.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.8
+  origversion: 4.3.8-1
+  status: legacy
+  vulnerable: true
+- repo: aerynos
+  srcname: lftp
+  visiblename: lftp
+  version: 4.9.3
+  origversion: null
+  status: newest
+  summary: Terminal based FTP Client
+  licenses:
+    - GPL-3.0-or-later
 - repo: alpine_3_17
   subrepo: main
   srcname: lftp
@@ -357,6 +425,13 @@
     - clandmeter@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 3.7.11
+  origversion: 3.7.11-1
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_24
   subrepo: main
   srcname: lftp
@@ -593,6 +668,18 @@
     - GPLv3+
   categories:
     - Unspecified
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: lftp
+  visiblename: lftp
+  version: 4.8.4
+  origversion: 4.8.4-2.el8
+  status: outdated
+  summary: A sophisticated file transfer program
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: lftp
@@ -941,18 +1028,6 @@
   visiblename: lftp
   version: 4.8.4
   origversion: 4.8.4-1.el8
-  status: outdated
-  summary: A sophisticated file transfer program
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: lftp
-  visiblename: lftp
-  version: 4.8.4
-  origversion: 4.8.4-2.el8
   status: outdated
   summary: A sophisticated file transfer program
   licenses:
@@ -1354,23 +1429,23 @@
   srcname: lftp
   binname: lftp
   visiblename: lftp
-  version: 4.9.3
-  origversion: 4.9.3-2
-  status: newest
+  version: 4.9.2
+  origversion: 4.9.2-1
+  status: outdated
   summary: Sophisticated command line based FTP client
   licenses:
-    - GPL-3.0-or-later
+    - GPL3
 - repo: manjaro_testing
   subrepo: extra
   srcname: lftp
   binname: lftp
   visiblename: lftp
-  version: 4.9.3
-  origversion: 4.9.3-2
-  status: newest
+  version: 4.9.2
+  origversion: 4.9.2-1
+  status: outdated
   summary: Sophisticated command line based FTP client
   licenses:
-    - GPL-3.0-or-later
+    - GPL3
 - repo: manjaro_unstable
   subrepo: extra
   srcname: lftp
@@ -1800,7 +1875,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: lftp
   binnames:
     - lftp
@@ -1813,7 +1888,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: lftp
   binnames:
     - lftp
@@ -1888,7 +1963,7 @@
   srcname: lftp
   visiblename: lftp
   version: 4.9.3
-  origversion: 4.9.3-1
+  origversion: 4.9.3-2
   status: newest
 - repo: pureos_amber
   subrepo: amber/main
@@ -2121,6 +2196,15 @@
   version: 4.9.3
   origversion: null
   status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: lftp
+  visiblename: lftp
+  version: 4.9.2
+  origversion: null
+  status: outdated
   maintainers:
     - volkerdi@slackware.com
 - repo: solus
@@ -2368,154 +2452,6 @@
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.6.6
-  origversion: 4.6.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.7.0
-  origversion: 4.7.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.7.2
-  origversion: 4.7.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.7.3
-  origversion: 4.7.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.7.5
-  origversion: 4.7.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.7.7
-  origversion: 4.7.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.8.0
-  origversion: 4.8.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.8.1
-  origversion: 4.8.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.8.2
-  origversion: 4.8.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.8.3
-  origversion: 4.8.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp_64
-  visiblename: lftp_64
-  version: 4.8.3
-  origversion: 4.8.3-1
-  status: legacy
-  vulnerable: true
-- repo: amazon_2
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.8
-  origversion: 4.4.8-12.amzn2.1
-  status: outdated
-  summary: A sophisticated file transfer program
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.8
-  origversion: 4.4.8-8.amzn2.2.1
-  status: outdated
-  summary: A sophisticated file transfer program
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.8
-  origversion: 4.4.8-8.amzn2.2
-  status: outdated
-  summary: A sophisticated file transfer program
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 3.7.15
-  origversion: 3.7.15-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 3.7.15
-  origversion: 3.7.15-3
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.0.10
-  origversion: 4.0.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.0.1
-  origversion: 4.0.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.0.3
-  origversion: 4.0.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
   version: 4.0.4
   origversion: 4.0.4-1
   status: legacy
@@ -2597,88 +2533,60 @@
   origversion: 4.2.3-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
+- repo: amazon_2
   srcname: lftp
   visiblename: lftp
-  version: 4.2.3
-  origversion: 4.2.3-2
-  status: legacy
+  version: 4.4.8
+  origversion: 4.4.8-12.amzn2.1
+  status: outdated
+  summary: A sophisticated file transfer program
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: lftp
+  visiblename: lftp
+  version: 4.4.8
+  origversion: 4.4.8-8.amzn2.2.1
+  status: outdated
+  summary: A sophisticated file transfer program
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: lftp
+  visiblename: lftp
+  version: 4.4.8
+  origversion: 4.4.8-8.amzn2.2
+  status: outdated
+  summary: A sophisticated file transfer program
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: centos_6
+  subrepo: os
+  srcname: lftp
+  visiblename: lftp
+  version: 4.0.9
+  origversion: 4.0.9-15.el6
+  status: outdated
+  summary: A sophisticated file transfer program
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
   vulnerable: true
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.3.0
-  origversion: 4.3.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.1
-  origversion: 4.3.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.2
-  origversion: 4.3.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.3
-  origversion: 4.3.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.5
-  origversion: 4.3.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.6
-  origversion: 4.3.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.7
-  origversion: 4.3.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.3.8
-  origversion: 4.3.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.0
-  origversion: 4.4.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.10
-  origversion: 4.4.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.11
-  origversion: 4.4.11-1
+  version: 4.4.4
+  origversion: 4.4.4-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2686,13 +2594,6 @@
   visiblename: lftp
   version: 4.4.1
   origversion: 4.4.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.13
-  origversion: 4.4.13-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2728,20 +2629,6 @@
   visiblename: lftp
   version: 4.4.3
   origversion: 4.4.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.4
-  origversion: 4.4.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.4.5
-  origversion: 4.4.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2796,20 +2683,6 @@
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.5.4
-  origversion: 4.5.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.5.5
-  origversion: 4.5.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
   version: 4.5.6
   origversion: 4.5.6-1
   status: legacy
@@ -2831,20 +2704,6 @@
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.6.2
-  origversion: 4.6.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
-  version: 4.6.3a
-  origversion: 4.6.3a-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: lftp
-  visiblename: lftp
   version: 4.6.4
   origversion: 4.6.4-1
   status: legacy
@@ -2852,22 +2711,78 @@
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 3.7.11
-  origversion: 3.7.11-1
+  version: 4.6.5
+  origversion: 4.6.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 3.7.13
-  origversion: 3.7.13-1
+  version: 4.6.6
+  origversion: 4.6.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 3.7.15
-  origversion: 3.7.15-1
+  version: 4.7.1
+  origversion: 4.7.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.2
+  origversion: 4.7.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.3
+  origversion: 4.7.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.4
+  origversion: 4.7.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.5
+  origversion: 4.7.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.7
+  origversion: 4.7.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.7.8
+  origversion: 4.7.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.8.1
+  origversion: 4.8.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp_64
+  visiblename: lftp_64
+  version: 4.8.3
+  origversion: 4.8.3-1
   status: legacy
   vulnerable: true
 - repo: amazon_1
@@ -2896,18 +2811,103 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: centos_6
-  subrepo: os
+- repo: aix_osp
   srcname: lftp
   visiblename: lftp
-  version: 4.0.9
-  origversion: 4.0.9-15.el6
-  status: outdated
-  summary: A sophisticated file transfer program
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
+  version: 4.2.3
+  origversion: 4.2.3-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.1
+  origversion: 4.3.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.3
+  origversion: 4.3.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.6
+  origversion: 4.3.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.3.7
+  origversion: 4.3.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.4.0
+  origversion: 4.4.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.4.10
+  origversion: 4.4.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 3.7.13
+  origversion: 3.7.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 3.7.15
+  origversion: 3.7.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 3.7.15
+  origversion: 3.7.15-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 3.7.15
+  origversion: 3.7.15-3
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.0.10
+  origversion: 4.0.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.0.1
+  origversion: 4.0.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: lftp
+  visiblename: lftp
+  version: 4.0.3
+  origversion: 4.0.3-1
+  status: legacy
   vulnerable: true
 - repo: centos_7
   subrepo: os
@@ -2946,20 +2946,6 @@
     - GNU GPL 2
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: lftp
-  binnames:
-    - lftp
-  visiblename: lftp
-  version: 4.4.13
-  origversion: 4.4.13-1
-  status: outdated
-  maintainers:
-    - noel@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: lftp
   binnames:
@@ -2970,6 +2956,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: lftp
+  binnames:
+    - lftp
+  visiblename: lftp
+  version: 4.4.13
+  origversion: 4.4.13-1
+  status: outdated
+  maintainers:
+    - noel@debian.org
   categories:
     - net
   vulnerable: true
