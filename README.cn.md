@@ -31,7 +31,7 @@ x install lftp
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Maintained** (2/10) — 3 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 2
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## 源代码
@@ -58,12 +58,12 @@ x install lftp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 0 | 3 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-10 | 0 | 3 | 1 | 0 | 0 | 3 |
-| last180d | 2026-05-12 | 0 | 3 | 1 | 0 | 1 | 3 |
-| 360d | 2025-11-13 | 0 | 6 | 3 | 1 | 8 | 6 |
-| last720d | 2024-11-18 | 0 | 10 | 5 | 4 | 24 | 11 |
+| 30d | 2026-10-11 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-11 | 0 | 3 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-12 | 0 | 3 | 1 | 0 | 0 | 3 |
+| last180d | 2026-05-14 | 0 | 3 | 1 | 0 | 1 | 3 |
+| 360d | 2025-11-15 | 0 | 6 | 3 | 1 | 8 | 6 |
+| last720d | 2024-11-20 | 0 | 10 | 5 | 4 | 23 | 11 |
 
 ## Release 资产
 
@@ -99,4 +99,4 @@ lftp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T07:02:24Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T08:42:14Z._
