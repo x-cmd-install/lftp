@@ -24,6 +24,16 @@ x install lftp
 | M4 | 1,014 | 353 | 103 | 12 |
 | Sh | 268 | 26 | 49 | 7 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **3.3 / 10**
+
+评分最低的几项:
+
+- **Token-Permissions** (-1/10) — No tokens found
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (2/10) — 3 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 2
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/lavv17/lftp>
@@ -48,12 +58,12 @@ x install lftp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 3 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-25 | 0 | 3 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-27 | 0 | 3 | 1 | 0 | 0 | 3 |
-| 360d | 2025-11-28 | 0 | 6 | 3 | 1 | 8 | 6 |
-| last720d | 2024-12-03 | 0 | 10 | 5 | 3 | 22 | 11 |
+| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-25 | 0 | 3 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-26 | 0 | 3 | 1 | 0 | 0 | 0 |
+| last180d | 2026-05-28 | 0 | 3 | 1 | 0 | 0 | 3 |
+| 360d | 2025-11-29 | 0 | 6 | 3 | 1 | 8 | 6 |
+| last720d | 2024-12-04 | 0 | 10 | 5 | 3 | 22 | 11 |
 
 ## Release 资产
 
@@ -89,4 +99,4 @@ lftp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T09:49:52Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:41:40Z._
