@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,307 · **Forks**: 186 · **Open issues**: 646 · **Contributors**: 61
+- **Stars**: 1,307 · **Forks**: 187 · **Open issues**: 646 · **Contributors**: 61
 
 ## Totals (cumulative)
 
@@ -58,37 +58,18 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 3 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 3 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 0 | 3 | 1 | 0 | 0 | 3 |
-| 360d | 2025-11-29 | 0 | 6 | 3 | 1 | 8 | 6 |
-| last720d | 2024-12-04 | 0 | 10 | 5 | 3 | 22 | 11 |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 3 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 3 | 1 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 0 | 3 | 1 | 0 | 0 | 3 |
+| 360d | 2025-11-30 | 0 | 6 | 3 | 1 | 7 | 6 |
+| last720d | 2024-12-05 | 0 | 10 | 5 | 3 | 22 | 11 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [lftp-4.9.3.tar.gz](https://github.com/lavv17/lftp/releases/download/v4.9.3/lftp-4.9.3.tar.gz) | 3.2 MiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **261** distros on [repology.org](https://repology.org/project/lftp). **70** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.9.3` | ✅ latest |
-| Debian 14 | `4.9.3` | ✅ latest |
-| Debian 13 | `4.9.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.9.3` | ✅ latest |
-| Ubuntu 24.04 LTS | `4.9.2` | ⚠️ outdated |
-| Arch | `4.9.3` | ✅ latest |
-| Homebrew | `4.9.3` | ✅ latest |
-| Fedora rawhide | `4.9.3` | ✅ latest |
-| Nix unstable | `4.9.3` | ✅ latest |
-| Void | `4.9.2` | ⚠️ outdated |
-| Alpine edge | `4.9.3` | ✅ latest |
-| openSUSE Tumbleweed | `4.9.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -99,4 +80,4 @@ Install metadata for lftp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:41:39Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:19:06Z._
